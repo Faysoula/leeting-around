@@ -19,7 +19,7 @@ public:
         int rightDiameter = diameterOfBinaryTree(root->right);
         int currentDiameter = height(root->left) + height(root->right);
 
-        return max({leftDiameter, rightDiameter, currentDiameter});
+        return max(leftDiameter, max(rightDiameter, currentDiameter));
     }
 
     int height(TreeNode* root){
