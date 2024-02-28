@@ -15,7 +15,7 @@ public:
         queue<TreeNode*> q;
 
         q.push(root);
-        TreeNode* curr;
+        TreeNode* curr = root;
 
         while(!q.empty()){
             curr = q.front();
