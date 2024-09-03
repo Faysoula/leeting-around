@@ -16,7 +16,7 @@ class Solution
             for (int transform = 0; transform < k; transform++) {
                 sum = 0;
                 for(char c:alph){
-                    sum += (int)c - 48;
+                    sum += c - 48;
                 }
 
                 alph = to_string(sum);
