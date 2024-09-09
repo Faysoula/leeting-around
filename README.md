@@ -1,2 +1,2 @@
 # leeting-around
-Collection of LeetCode questions to ace the coding interview!
+Keeping a storage of all my leetcode endeavours!
